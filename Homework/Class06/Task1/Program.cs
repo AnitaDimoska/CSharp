@@ -16,7 +16,7 @@ namespace Task1
                     Console.WriteLine("Positive \nInteger \nEven");
                 else if (userInput >= 0 && userInput % 2 != 0 && userInput % 1 == 0)
                     Console.WriteLine("Positive \nInteger \nOdd");
-                else if (userInput >= 0 &&  userInput % 1 != 0)
+                else if (userInput >= 0 && userInput % 1 != 0)
                     Console.WriteLine("Positive \nDecimal");
                 else if (userInput <= 0 && userInput % 1 != 0)
                     Console.WriteLine("Negative \nDecimal");
