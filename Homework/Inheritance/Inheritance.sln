@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company", "Inheritance\Company.csproj", "{ADEF91D5-8165-474D-9BE5-E2A2FDB23B5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{A01AD767-4902-4CCB-9360-6A4B65D6D552}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{F791329E-AB40-4688-8893-F8004429692F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADEF91D5-8165-474D-9BE5-E2A2FDB23B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEF91D5-8165-474D-9BE5-E2A2FDB23B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEF91D5-8165-474D-9BE5-E2A2FDB23B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEF91D5-8165-474D-9BE5-E2A2FDB23B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01AD767-4902-4CCB-9360-6A4B65D6D552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01AD767-4902-4CCB-9360-6A4B65D6D552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01AD767-4902-4CCB-9360-6A4B65D6D552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01AD767-4902-4CCB-9360-6A4B65D6D552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F791329E-AB40-4688-8893-F8004429692F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F791329E-AB40-4688-8893-F8004429692F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F791329E-AB40-4688-8893-F8004429692F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F791329E-AB40-4688-8893-F8004429692F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35751864-BE2F-4FC0-A0ED-44370222B2FB}
+	EndGlobalSection
+EndGlobal
