@@ -44,7 +44,9 @@ namespace Inheritance
             ////    newproduct.CreateDrink(1,"beer",TypeProduct.Drink, 100.00, 1.5 ),
             ////    newproduct.CreateDrink(2,"water",TypeProduct.Drink, 10.00, 2.5 ),
             //}
-
+            var anita = new SalesPerson(1, "Anita", "Dimoska", Role.Sales, 8, 2500);
+            anita.AddSuccessRevenue(10.00);
+            Console.WriteLine(anita.GetSalary());
         }
     }
 }
