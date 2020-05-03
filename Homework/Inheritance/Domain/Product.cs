@@ -10,7 +10,7 @@ namespace Domain
         {
 
         }
-        public Product(int id, string name, TypeProduct type, double price)
+        public Product(int id, string name, ProductType type, double price)
         {
             Id = id;
             Name = name;
@@ -20,7 +20,7 @@ namespace Domain
         }
         public int Id { get; set; }
         public string Name { get; set; }
-        public TypeProduct Type { get; set; }
+        public ProductType Type { get; set; }
         public double Price { get; set; }
         public bool OnPromotion { get; set; }
 

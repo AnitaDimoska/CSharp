@@ -7,13 +7,15 @@ namespace Domain
     public class Manager : Employee
     {
         public Worker[] Workers { get; set; }
+        public DepartmentType Department { get; set; }
         public Manager() : base()
         {
 
         }
-        public Manager(int id, string firstName, string lastName, Role role, int hours, double salary, Worker[] workers) : base(id, firstName, lastName, role, hours, salary)
+        public Manager(int id, string firstName, string lastName, Role role, int hours, double salary, Worker[] workers, DepartmentType department) : base(id, firstName, lastName, role, hours, salary)
         {
             Workers = workers;
+            Department = department;
         }
         public override string PrintInfo()
         {

@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Domain
 {
-    public enum TypeProduct
+    public enum DepartmentType
     {
-        Food,
-        Electronics,
-        Drink
+        Sales,
+        Marketing,
+        Development
     }
 }

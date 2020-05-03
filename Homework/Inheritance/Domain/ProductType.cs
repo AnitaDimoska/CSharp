@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Domain
 {
-   public enum Product_Type
+   public enum ProductType
     {
         Food,
         Electronics,

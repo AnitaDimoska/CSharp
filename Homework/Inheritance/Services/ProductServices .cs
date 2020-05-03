@@ -11,22 +11,22 @@ namespace Services
         {
 
         }
-        public Food CreateFood(int id, string name, TypeProduct type, double price, Taste taste, int calories)
+        public Food CreateFood(int id, string name, ProductType type, double price, Taste taste, int calories)
         {
             Food newFood = new Food(id, name, type, price, taste, calories);
             return newFood;
         }
-        public Drink CreateDrink(int id, string name, TypeProduct type, double price, double liters)
+        public Drink CreateDrink(int id, string name, ProductType type, double price, double liters)
         {
             Drink newDrink = new Drink(id, name, type, price, liters);
             return newDrink;
         }
-        public Electronics CreateElectronics(int id, string name, TypeProduct type, double price, double voltage)
+        public Electronics CreateElectronics(int id, string name, ProductType type, double price, double voltage)
         {
             Electronics newElectronics = new Electronics(id, name, type, price, voltage);
             return newElectronics;
         }
-        public Product[] GetproductsByType(Product[] products, TypeProduct type)
+        public Product[] GetproductsByType(Product[] products, ProductType type)
         {
             Product[] newproduct = new Product[0];
             foreach (var product in products)

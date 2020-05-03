@@ -6,7 +6,7 @@ namespace Domain
 {
     public class Electronics : Product
     {
-        public Electronics(int id, string name, TypeProduct type, double price, double voltage) : base(id, name, type, price)
+        public Electronics(int id, string name, ProductType type, double price, double voltage) : base(id, name, type, price)
         {
             Voltage = voltage;
         }

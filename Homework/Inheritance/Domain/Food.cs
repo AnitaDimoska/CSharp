@@ -6,7 +6,7 @@ namespace Domain
 {
     public class Food : Product
     {
-        public Food(int id, string name, TypeProduct type, double price, Taste taste, int calories) : base(id, name, type, price)
+        public Food(int id, string name, ProductType type, double price, Taste taste, int calories) : base(id, name, type, price)
         {
             Taste = taste;
             Calories = calories;
