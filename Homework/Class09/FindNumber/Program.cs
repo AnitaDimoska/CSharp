@@ -33,6 +33,7 @@ namespace FindNumber
             users.Add("Sasho", 274524);
             users.Add("Martin", 274524);
             FindNumber(users);
+            Console.ReadLine();
         }
     }
 }
