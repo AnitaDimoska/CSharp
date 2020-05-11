@@ -31,14 +31,14 @@ namespace InputNumbers
                                 {
                                     phoneNumbers.Enqueue(userInput4);
                                 }
+                                else
+                                {
+                                    Console.WriteLine("You can only enter numbers.");
+                                }
                             }
                             else if (userInput2.ToLower() == "n")
                             {
-                                Console.WriteLine("You enter these numbers:");
-                                foreach (var item in phoneNumbers)
-                                {
-                                    Console.WriteLine(item);
-                                }
+                                PrintNumbers(phoneNumbers);
                                 break;
                             }
                             else
@@ -53,8 +53,17 @@ namespace InputNumbers
                         Console.WriteLine("You can only enter numbers.");
                     }
                 }
+                static void PrintNumbers(Queue<double>phoneNumbers)
+                {
+                    Console.WriteLine("You enter these numbers:");
+                    foreach (var item in phoneNumbers)
+                    {
+                        Console.WriteLine(item);
+                    }
+                }
             }
             Console.ReadLine();
         }
+       
     }
 }
