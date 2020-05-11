@@ -64,6 +64,5 @@ namespace InputNumbers
             }
             Console.ReadLine();
         }
-       
     }
 }
