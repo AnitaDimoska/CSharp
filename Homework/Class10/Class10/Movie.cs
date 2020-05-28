@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace Class10
 {
@@ -32,5 +33,10 @@ public class Movie
         if (rating < 1 || rating > 5) throw new OverflowException("Rating must be between 1 and 5.");
 
         return true;
+    }
+
+    public void MovieLargerThanRaiting(List<Movie> movies, int rating)
+    {
+        List<Movie> movieRating = movies.Where(movie => movie.Rating > rating).ToList();
     }
 }

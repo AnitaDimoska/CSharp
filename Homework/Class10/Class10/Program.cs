@@ -25,6 +25,23 @@ namespace Class10
                 new Movie("Scary movie", Genre.Comedy, 1),
                 new Movie("Mr and Mrs Smith", Genre.Action, 3)
                 };
+
+            var allMovies = new List<Movie>
+            {
+                new Movie("Conjuring", Genre.Horror, 3),
+                new Movie("The Nun", Genre.Horror, 5),
+                new Movie("Conjuring2", Genre.Horror, 4),
+                new Movie("Edge of tomorrow", Genre.SciFi, 3),
+                new Movie("Vanilla sky", Genre.Drama, 2),
+                new Movie("Scary movie", Genre.Comedy, 1),
+                new Movie("Mr and Mrs Smith", Genre.Action, 3),
+                new Movie("Edge of tomorrow", Genre.SciFi, 3),
+                new Movie("Conjuring", Genre.Horror, 3),
+                new Movie("Vanilla sky", Genre.Drama, 2),
+                new Movie("Scary movie", Genre.Comedy, 1),
+                new Movie("Mr and Mrs Smith", Genre.Action, 3)
+            };
+
             var hallsMilenium = new List<int> { 1, 2, 3, 4, 5 };
             var hallsCineplex = new List<int> { 1, 2, 3, 4, 5, 6, 7 };
             var cineplex = new Cinema("Cineplex", hallsMilenium, moviesCineplex);
@@ -113,5 +130,6 @@ namespace Class10
                 cinema.MoviePlaying(choseMovie.Title);
             }
         }
+       
     }
 }
