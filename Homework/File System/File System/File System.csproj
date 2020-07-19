@@ -6,4 +6,13 @@
     <RootNamespace>File_System</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Exercise\**" />
+    <Compile Remove="newFolder\**" />
+    <EmbeddedResource Remove="Exercise\**" />
+    <EmbeddedResource Remove="newFolder\**" />
+    <None Remove="Exercise\**" />
+    <None Remove="newFolder\**" />
+  </ItemGroup>
+
 </Project>
